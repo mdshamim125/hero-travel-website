@@ -1,0 +1,51 @@
+/* for mobile or small devices */
+@media screen and (max-width:600px) {
+    .container{
+        margin: 20px;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .list{
+        display: none;
+    }
+    .head .toggle-bar{
+        display: block;
+        text-align: right;
+    }
+    .logo{
+        width: 90%;
+    }
+    .head{
+        justify-content: space-between;
+    }
+
+    .banner{
+        min-width: 335px;
+        height: 493px;
+        margin-top: 10px;
+    }
+    .banner .content{
+        width: 90%;
+    }
+    .banner .content h1{
+        font-size: 1.5rem;
+    }
+    .banner .content p{
+        line-height: 1.5rem; 
+        margin-bottom: 10;
+    }
+    .banner .content input{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .banner .content button{
+        width: 90%;
+    }
+}
