@@ -123,3 +123,87 @@ p, .tours-content{
     margin-bottom: 16px;
     margin-top: 24px;
 }
+/* destination section start */
+
+/* .destination-section .destination-container .destination img{
+    position: relative;
+    border: 2px solid black;
+}
+.destination-section .destination-container .destination h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    text-align: center;
+} */
+
+.title, .description{
+    text-align: center;
+    max-width: 640px;
+    margin: 30px auto;
+}
+.destination-container{
+    display: grid;
+    grid-template-columns: repeat(25, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+}
+.destination-container .destination{
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: grid;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    color: white;
+}
+.destination-container .Maldives{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 5.png');
+    grid-column: 1/13;
+    /* grid-row: 1/2; */
+    height: 300px;
+}
+.destination-container .Indonesia{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 8.png');
+    grid-column: 14/26;
+    /* grid-row: 1/2; */
+    height: 300px;
+}
+.destination-container .Srilanka{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 6.png');
+    grid-column: 1/8;
+    height: 280px;
+    margin-top: 24px;
+}
+.destination-container .North-America{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 7.png');
+    grid-column: 9/19;
+    height: 280px;
+    margin-top: 24px;
+}
+.destination-container .Kashmir{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 9.png');
+    grid-column: 20/26;
+    height: 280px;
+    margin-top: 24px;
+}
+.destination-container .Bangladesh{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 11.png');
+    grid-column: 1/11;
+    /* grid-row: 1/2; */
+    height: 300px;
+    margin-top: 24px;
+}
+.destination-container .Bandarban{
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 10.png');
+    grid-column: 12/26;
+    /* grid-row: 1/2; */
+    height: 300px;
+    margin-top: 24px;
+}
+
+
+
+

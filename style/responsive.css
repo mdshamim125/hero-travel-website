@@ -62,4 +62,15 @@
     .tours-img img{
         width: 100%;
     }
+    .destination-section .destination-container{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .destination-container .destination {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 }
