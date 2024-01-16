@@ -39,7 +39,7 @@
         line-height: 1.5rem; 
         margin-bottom: 10;
     }
-    .banner .content input{
+    .banner .content input, select{
         display: block;
         width: 90%;
         margin: 0 auto;

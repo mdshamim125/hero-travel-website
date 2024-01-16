@@ -93,7 +93,8 @@ p, .tours-content{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
 }
-.banner .content input{
+.banner .content input, select{
+    font-size: 1rem;
     width: 154px;
     height: 52px;
     border-radius: 8px;
