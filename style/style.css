@@ -124,20 +124,8 @@ p, .tours-content{
     margin-bottom: 16px;
     margin-top: 24px;
 }
-/* destination section start */
 
-/* .destination-section .destination-container .destination img{
-    position: relative;
-    border: 2px solid black;
-}
-.destination-section .destination-container .destination h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 2px solid red;
-    text-align: center;
-} */
+/* destination section start */
 
 .title, .description{
     text-align: center;
@@ -147,7 +135,6 @@ p, .tours-content{
 .destination-container{
     display: grid;
     grid-template-columns: repeat(25, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */
 }
 .destination-container .destination{
     background-repeat: no-repeat;
@@ -163,13 +150,11 @@ p, .tours-content{
 .destination-container .Maldives{
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 5.png');
     grid-column: 1/13;
-    /* grid-row: 1/2; */
     height: 300px;
 }
 .destination-container .Indonesia{
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 8.png');
     grid-column: 14/26;
-    /* grid-row: 1/2; */
     height: 300px;
 }
 .destination-container .Srilanka{
@@ -193,14 +178,12 @@ p, .tours-content{
 .destination-container .Bangladesh{
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 11.png');
     grid-column: 1/11;
-    /* grid-row: 1/2; */
     height: 300px;
     margin-top: 24px;
 }
 .destination-container .Bandarban{
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),  url('../Images/Rectangle\ 10.png');
     grid-column: 12/26;
-    /* grid-row: 1/2; */
     height: 300px;
     margin-top: 24px;
 }
@@ -235,6 +218,38 @@ p, .tours-content{
 }
 .card-container .price{
     grid-column: 6/19;
+}
+
+/* discover section */
+
+
+.discover-section {
+    background-color: #f4f4f4;
+    padding: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+}
+
+.discover-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.discover-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.discover-card h3 {
+    color: #131318;
+    margin-bottom: 10px;
 }
 
 /* newsletter section */
@@ -309,6 +324,8 @@ footer .footer-content{
 footer .footer-icons .fa-brands{
     margin-right: 16px;
 }
+
+/* Alhamdulillah */
 
 
 
