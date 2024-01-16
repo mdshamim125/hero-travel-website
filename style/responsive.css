@@ -48,4 +48,18 @@
     .banner .content button{
         width: 90%;
     }
+    .tours-section{
+        flex-direction: column;
+    }
+    .tours-content{
+        width: 100%;
+    }
+    .tours-img{
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .tours-img img{
+        width: 100%;
+    }
 }
