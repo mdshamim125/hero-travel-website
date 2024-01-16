@@ -62,15 +62,23 @@
     .tours-img img{
         width: 100%;
     }
-    .destination-section .destination-container, .card-container{
+    .destination-section .destination-container, .card-container, .newsletter{
         display: flex;
         flex-direction: column;
         gap: 16px;
     }
-    .destination-container .destination {
+    .destination-container .destination, .newsletter .newsletter-image, .newsletter .newsletter-content {
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
     }
+    .newsletter .newsletter-image .discount-card{
+        max-width: 214.023px;
+        height: 79.268px;
+        position: relative;
+        top: 74%;
+        left: 50%;
+    }
+    
 }
