@@ -16,6 +16,7 @@
     .head .toggle-bar{
         display: block;
         text-align: right;
+        cursor: pointer;
     }
     .logo{
         width: 90%;
