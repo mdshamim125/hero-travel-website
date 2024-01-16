@@ -62,7 +62,7 @@
     .tours-img img{
         width: 100%;
     }
-    .destination-section .destination-container{
+    .destination-section .destination-container, .card-container{
         display: flex;
         flex-direction: column;
         gap: 16px;

@@ -203,6 +203,38 @@ p, .tours-content{
     height: 300px;
     margin-top: 24px;
 }
+.card-container .Choose-card{
+    max-width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 2rem;
+}
+
+.card-container .Choose-card h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+.card-container .Choose-card p{
+    color: #5A5A5D;
+    line-height: 26px; 
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    gap: 24px;
+}
+.card-container .hotel{
+    grid-column: 1/13;
+}
+.card-container .map{
+    grid-column: 13/25;
+}
+.card-container .price{
+    grid-column: 6/19;
+}
 
 
 
